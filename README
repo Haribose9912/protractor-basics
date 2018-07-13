@@ -1,0 +1,11 @@
+automated testcases
+1. check customer login
+2. check deposit
+3. check withdrawl
+4. check transaction
+5. adding a customer
+6. verifying new customer in open account
+7. opening an account
+8. verifying customer list
+9. deleting a customer
+10. check logout
