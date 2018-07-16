@@ -1,11 +1,16 @@
-automated testcases
-1. check customer login
-2. check deposit
-3. check withdrawl
-4. check transaction
-5. adding a customer
-6. verifying new customer in open account
-7. opening an account
-8. verifying customer list
-9. deleting a customer
-10. check logout
+This project automates the following testcases identified for the way2automate demo site.
+
+to execute the project, install protractor package, start the webdriver-manager and run
+
+npm run start
+
+1. Verifying customer login
+2. Verifying deposit function
+3. Verifying withdrawl function
+4. Verifying transaction function
+5. Adding a customer
+6. Verifying new customer visibility in open account function
+7. Opening an account
+8. Verifying customer list
+9. Deleting a customer
+10. Verifying customer logout
