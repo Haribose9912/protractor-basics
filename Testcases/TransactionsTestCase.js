@@ -1,4 +1,4 @@
-describe('withdrawls testsuite', function(){
+describe('transaction testsuite', function(){
 	var login_pom = require("../POM/LoginPage.js");
 	var landingpage_pom = require("../POM/CustomerLandingPage.js");
 	var transactionspage_pom = require("../POM/TransactionsPage.js");

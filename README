@@ -1,6 +1,4 @@
-This project automates the following testcases identified for the way2automate demo site.
-
-to execute the project, install protractor package, start the webdriver-manager and run
+This project automates the following testcases identified for the way2automate demo site. Tgio execute the project, install protractor package, start the webdriver-manager and run
 
 npm run start
 

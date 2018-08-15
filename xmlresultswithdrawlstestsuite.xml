@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="1" time="11.077">
+ <testsuite name="withdrawls testsuite" timestamp="2018-07-25T10:29:52" hostname="localhost" time="11.077" errors="0" tests="1" skipped="0" disabled="0" failures="0">
+  <testcase classname="withdrawls testsuite" name="checking if deposit is recorded in transaction history" time="11.076" />
+ </testsuite>
+</testsuites>
