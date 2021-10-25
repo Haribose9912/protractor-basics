@@ -1,6 +1,7 @@
 
 exports.config = {
-		seleniumAddress: "http://localhost:4444/wd/hub",
+		//seleniumAddress: "http://localhost:4444/wd/hub",
+		directConnect :true,
 		specs: ["Testcases/LoginTestCase.js","Testcases/WithdrawlTestCase.js","Testcases/TransactionsTestCase.js","Testcases/NewUserFlowTestCase.js","Testcases/DepositTestCase.js","Testcases/CustomerManagementTestCase.js","Testcases/AccountTestCase.js"],
 		onPrepare: function() {
 		    var jasmineReporters = require('jasmine-reporters');

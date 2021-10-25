@@ -180,10 +180,10 @@ th {
         <div class="navbar-header">
           <div class="project-name visible-md visible-lg">Test Execution Report</div>
           <div class="label-container">
-            <span class="label label-success" title=TestCases>Passed: 11</span>
-            <span class="label label-danger" title=TestCases>Failed: 0</span>
+            <span class="label label-success" title=TestCases>Passed: 10</span>
+            <span class="label label-danger" title=TestCases>Failed: 1</span>
             <span class="label label-warning" title=TestCases>Skipped: 0</span>
-            <span class="label label-info">Time Elapsed: 0h 0min 51s</span>
+            <span class="label label-info">Time Elapsed: 0h 0min 48s</span>
           </div>
         </div>
       </div>
@@ -192,8 +192,8 @@ th {
     <div class="container">
 
     <!--<div class="generated-on"><b>Platform:</b> </div>-->
-    <div class="info"><b>Browser:</b> chrome 67.0.3396.99</div>
-    <div class="info"><b>Generated on:</b> 2018-7-25 12:08:48</div>
+    <div class="info"><b>Browser:</b> chrome 94.0.4606.81</div>
+    <div class="info"><b>Generated on:</b> 25/10/2021, 1:06:12 pm</div>
 
 
       <div class="row">
@@ -209,12 +209,13 @@ th {
       <h4 class="panel-title">
           <a data-toggle="collapse" href="#collapseSuite0">
           
-            <span class="label label-success"><i class="glyphicon glyphicon-ok"></i></span>
+            <span class="label label-danger"><i class="glyphicon glyphicon-remove"></i></span>
           
-          <font color="green"><b>TestSuite:</b>testsuite for the login page</font>
+          <font color="red"><b>TestSuite:</b>testsuite for the login page</font>
+          
           <span class="label-container">
-            <span class="label label-success">2</span>
-            
+            <span class="label label-success">1</span>
+            <span class="label label-danger">1</span>
             
             
           </span>
@@ -229,16 +230,16 @@ th {
                     <h4 class="panel-title">
                       <a data-toggle="collapse" href="#collapseTestCase0_0">
                         
-                          <span class="label label-success"><i class="glyphicon glyphicon-ok"></i></span>
+                          <span class="label label-danger"><i class="glyphicon glyphicon-remove"></i></span>
                         
 
-                        <font color="green"><b>TestCase:</b>successful customer login</font>
                         
                         
+                        <font color="red"><b>TestCase:</b>successful customer login</font>
                         <span class="label-container">
-                          <span class="label label-success" title="Passed">Passed</span>
                           
                           
+                          <span class="label label-danger" title="Failed">Failed</span>
                       </a>
                     </h4>
                   </div>
@@ -248,15 +249,19 @@ th {
                       <p class="scenario-container">
                         
                           <span class="label label-primary" title="Success"><i class="glyphicon glyphicon-time"></i></span>
-                          <font color="black">Time elapsed: 8 seconds</font>
+                          <font color="black">Time elapsed: 4 seconds</font>
 
+                          
+                            <br />
+                            <span class="label label-danger"><i class="glyphicon glyphicon-remove"></i></span>
+                            <font color="red">Expected 'https://www.way2automation.com/angularjs-protractor/banking/#/customer' to equal 'http://www.way2automation.com/angularjs-protractor/banking/#/customer'.</font>
                           
 
                           
                             <br />
                             <span class="label label-primary"><i class="glyphicon glyphicon-camera"></i></span>
                             
-                              Screenshot:
+                              Screenshot on failure:
                             
                             <a class="screenshot" href="./screenshots/chrome-testsuite for the login page successful customer login.png" data-lightbox="chrome-testsuite for the login page successful customer login.png">
                               <img src="./screenshots/chrome-testsuite for the login page successful customer login.png" style="width:100%;height:100%" alt="Screenshot not found: ./screenshots/chrome-testsuite for the login page successful customer login.png"/>
@@ -488,7 +493,7 @@ th {
                       <p class="scenario-container">
                         
                           <span class="label label-primary" title="Success"><i class="glyphicon glyphicon-time"></i></span>
-                          <font color="black">Time elapsed: 7 seconds</font>
+                          <font color="black">Time elapsed: 6 seconds</font>
 
                           
 
@@ -563,7 +568,7 @@ th {
                       <p class="scenario-container">
                         
                           <span class="label label-primary" title="Success"><i class="glyphicon glyphicon-time"></i></span>
-                          <font color="black">Time elapsed: 5 seconds</font>
+                          <font color="black">Time elapsed: 4 seconds</font>
 
                           
 
@@ -638,7 +643,7 @@ th {
                       <p class="scenario-container">
                         
                           <span class="label label-primary" title="Success"><i class="glyphicon glyphicon-time"></i></span>
-                          <font color="black">Time elapsed: 4 seconds</font>
+                          <font color="black">Time elapsed: 3 seconds</font>
 
                           
 
@@ -803,7 +808,7 @@ th {
                       <p class="scenario-container">
                         
                           <span class="label label-primary" title="Success"><i class="glyphicon glyphicon-time"></i></span>
-                          <font color="black">Time elapsed: 6 seconds</font>
+                          <font color="black">Time elapsed: 11 seconds</font>
 
                           
 
@@ -933,16 +938,16 @@ th {
       google.charts.load("current", {packages:["corechart"]});
       google.charts.setOnLoadCallback(function() {drawChart({
                                                               "title": "TestSuites",
-                                                              "passed": 7,
-                                                              "failed": 0,
+                                                              "passed": 6,
+                                                              "failed": 1,
         })
       });
       google.charts.setOnLoadCallback(function() {drawChart({
                                                               "title": "TestCases",
-                                                              "passed": 11,
+                                                              "passed": 10,
                                                               "skipped": 0,
                                                               "errors": 0,
-                                                              "failed": 0
+                                                              "failed": 1
         })
       });
 

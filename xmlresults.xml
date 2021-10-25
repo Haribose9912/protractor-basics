@@ -1,28 +1,40 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuites disabled="0" errors="0" failures="0" tests="11" time="46.118">
- <testsuite name="testsuite for the login page" timestamp="2018-07-25T12:08:02" hostname="localhost" time="9.044" errors="0" tests="2" skipped="0" disabled="0" failures="0">
-  <testcase classname="testsuite for the login page" name="successful customer login" time="7.951" />
-  <testcase classname="testsuite for the login page" name="successful admin login" time="1.091" />
+<testsuites disabled="0" errors="0" failures="1" tests="11" time="45.484">
+ <testsuite name="testsuite for the login page" timestamp="2021-10-25T13:05:26" hostname="localhost" time="4.672" errors="0" tests="2" skipped="0" disabled="0" failures="1">
+  <testcase classname="testsuite for the login page" name="successful customer login" time="3.609">
+   <failure type="toEqual" message="Expected &apos;https://www.way2automation.com/angularjs-protractor/banking/#/customer&apos; to equal &apos;http://www.way2automation.com/angularjs-protractor/banking/#/customer&apos;."><![CDATA[Error: Failed expectation
+    at UserContext.<anonymous> (C:\Users\Hp\Downloads\jsprov2\protractor_poc_w2a\Testcases\LoginTestCase.js:19:35)
+    at C:\Users\Hp\Downloads\jsprov2\protractor_poc_w2a\node_modules\jasminewd2\index.js:112:25
+    at new ManagedPromise (C:\Users\Hp\Downloads\jsprov2\protractor_poc_w2a\node_modules\selenium-webdriver\lib\promise.js:1077:7)
+    at ControlFlow.promise (C:\Users\Hp\Downloads\jsprov2\protractor_poc_w2a\node_modules\selenium-webdriver\lib\promise.js:2505:12)
+    at schedulerExecute (C:\Users\Hp\Downloads\jsprov2\protractor_poc_w2a\node_modules\jasminewd2\index.js:95:18)
+    at TaskQueue.execute_ (C:\Users\Hp\Downloads\jsprov2\protractor_poc_w2a\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+    at TaskQueue.executeNext_ (C:\Users\Hp\Downloads\jsprov2\protractor_poc_w2a\node_modules\selenium-webdriver\lib\promise.js:3067:27)
+    at C:\Users\Hp\Downloads\jsprov2\protractor_poc_w2a\node_modules\selenium-webdriver\lib\promise.js:2974:25
+    at C:\Users\Hp\Downloads\jsprov2\protractor_poc_w2a\node_modules\selenium-webdriver\lib\promise.js:668:7]]>
+   </failure>
+  </testcase>
+  <testcase classname="testsuite for the login page" name="successful admin login" time="1.061" />
  </testsuite>
- <testsuite name="withdrawl test suite" timestamp="2018-07-25T12:08:11" hostname="localhost" time="6.707" errors="0" tests="2" skipped="0" disabled="0" failures="0">
-  <testcase classname="withdrawl test suite" name="withdrawl a valid amount" time="3.547" />
-  <testcase classname="withdrawl test suite" name="trying to withdraw exceeding balance" time="3.159" />
+ <testsuite name="withdrawl test suite" timestamp="2021-10-25T13:05:31" hostname="localhost" time="6.818" errors="0" tests="2" skipped="0" disabled="0" failures="0">
+  <testcase classname="withdrawl test suite" name="withdrawl a valid amount" time="3.501" />
+  <testcase classname="withdrawl test suite" name="trying to withdraw exceeding balance" time="3.316" />
  </testsuite>
- <testsuite name="transaction testsuite" timestamp="2018-07-25T12:08:18" hostname="localhost" time="6.344" errors="0" tests="1" skipped="0" disabled="0" failures="0">
-  <testcase classname="transaction testsuite" name="checking if deposit is recorded in transaction history" time="6.344" />
+ <testsuite name="transaction testsuite" timestamp="2021-10-25T13:05:37" hostname="localhost" time="5.949" errors="0" tests="1" skipped="0" disabled="0" failures="0">
+  <testcase classname="transaction testsuite" name="checking if deposit is recorded in transaction history" time="5.949" />
  </testsuite>
- <testsuite name="new user flow test suite" timestamp="2018-07-25T12:08:24" hostname="localhost" time="4.018" errors="0" tests="1" skipped="0" disabled="0" failures="0">
-  <testcase classname="new user flow test suite" name="login as a new user" time="4.016" />
+ <testsuite name="new user flow test suite" timestamp="2021-10-25T13:05:43" hostname="localhost" time="3.745" errors="0" tests="1" skipped="0" disabled="0" failures="0">
+  <testcase classname="new user flow test suite" name="login as a new user" time="3.743" />
  </testsuite>
- <testsuite name="deposit testsuit" timestamp="2018-07-25T12:08:28" hostname="localhost" time="3.201" errors="0" tests="1" skipped="0" disabled="0" failures="0">
-  <testcase classname="deposit testsuit" name="depositing happy path" time="3.2" />
+ <testsuite name="deposit testsuit" timestamp="2021-10-25T13:05:47" hostname="localhost" time="2.98" errors="0" tests="1" skipped="0" disabled="0" failures="0">
+  <testcase classname="deposit testsuit" name="depositing happy path" time="2.979" />
  </testsuite>
- <testsuite name="customer management test suite" timestamp="2018-07-25T12:08:31" hostname="localhost" time="12.536" errors="0" tests="3" skipped="0" disabled="0" failures="0">
-  <testcase classname="customer management test suite" name="adding a new user into the system" time="3.591" />
-  <testcase classname="customer management test suite" name="adding a new user into the system" time="3.489" />
-  <testcase classname="customer management test suite" name="deleting a user" time="5.413" />
+ <testsuite name="customer management test suite" timestamp="2021-10-25T13:05:50" hostname="localhost" time="17.25" errors="0" tests="3" skipped="0" disabled="0" failures="0">
+  <testcase classname="customer management test suite" name="adding a new user into the system" time="3.571" />
+  <testcase classname="customer management test suite" name="adding a new user into the system" time="3.492" />
+  <testcase classname="customer management test suite" name="deleting a user" time="10.142" />
  </testsuite>
- <testsuite name="Accounts testsuite" timestamp="2018-07-25T12:08:44" hostname="localhost" time="4.268" errors="0" tests="1" skipped="0" disabled="0" failures="0">
-  <testcase classname="Accounts testsuite" name="opening an account" time="4.268" />
+ <testsuite name="Accounts testsuite" timestamp="2021-10-25T13:06:07" hostname="localhost" time="4.07" errors="0" tests="1" skipped="0" disabled="0" failures="0">
+  <testcase classname="Accounts testsuite" name="opening an account" time="4.07" />
  </testsuite>
 </testsuites>
