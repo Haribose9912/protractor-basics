@@ -3,11 +3,11 @@
   "version": "1.0.0",
   "description": "protactor test suite that tests the way2automation banking example.",
   "dependencies": {
-    "protractor": "^5.3.0",
     "jasmine-data-provider": "2.2.0",
-    "protractor-jasmine2-html-reporter": "0.0.7",
     "jasmine-reporters": "2.3.1",
-    "protractor-html-reporter": "1.3.2"
+    "protractor": "^5.4.4",
+    "protractor-html-reporter": "1.3.2",
+    "protractor-jasmine2-html-reporter": "0.0.7"
   },
   "scripts": {
     "webdriver-update": "./node_modules/.bin/webdriver-manager update",

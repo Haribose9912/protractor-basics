@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuites disabled="0" errors="0" failures="1" tests="11" time="45.484">
- <testsuite name="testsuite for the login page" timestamp="2021-10-25T13:05:26" hostname="localhost" time="4.672" errors="0" tests="2" skipped="0" disabled="0" failures="1">
-  <testcase classname="testsuite for the login page" name="successful customer login" time="3.609">
+<testsuites disabled="0" errors="0" failures="1" tests="11" time="40.708">
+ <testsuite name="testsuite for the login page" timestamp="2021-10-25T16:46:44" hostname="localhost" time="5.38" errors="0" tests="2" skipped="0" disabled="0" failures="1">
+  <testcase classname="testsuite for the login page" name="successful customer login" time="4.299">
    <failure type="toEqual" message="Expected &apos;https://www.way2automation.com/angularjs-protractor/banking/#/customer&apos; to equal &apos;http://www.way2automation.com/angularjs-protractor/banking/#/customer&apos;."><![CDATA[Error: Failed expectation
     at UserContext.<anonymous> (C:\Users\Hp\Downloads\jsprov2\protractor_poc_w2a\Testcases\LoginTestCase.js:19:35)
     at C:\Users\Hp\Downloads\jsprov2\protractor_poc_w2a\node_modules\jasminewd2\index.js:112:25
@@ -14,27 +14,27 @@
     at C:\Users\Hp\Downloads\jsprov2\protractor_poc_w2a\node_modules\selenium-webdriver\lib\promise.js:668:7]]>
    </failure>
   </testcase>
-  <testcase classname="testsuite for the login page" name="successful admin login" time="1.061" />
+  <testcase classname="testsuite for the login page" name="successful admin login" time="1.079" />
  </testsuite>
- <testsuite name="withdrawl test suite" timestamp="2021-10-25T13:05:31" hostname="localhost" time="6.818" errors="0" tests="2" skipped="0" disabled="0" failures="0">
-  <testcase classname="withdrawl test suite" name="withdrawl a valid amount" time="3.501" />
-  <testcase classname="withdrawl test suite" name="trying to withdraw exceeding balance" time="3.316" />
+ <testsuite name="withdrawl test suite" timestamp="2021-10-25T16:46:49" hostname="localhost" time="6.271" errors="0" tests="2" skipped="0" disabled="0" failures="0">
+  <testcase classname="withdrawl test suite" name="withdrawl a valid amount" time="3.244" />
+  <testcase classname="withdrawl test suite" name="trying to withdraw exceeding balance" time="3.027" />
  </testsuite>
- <testsuite name="transaction testsuite" timestamp="2021-10-25T13:05:37" hostname="localhost" time="5.949" errors="0" tests="1" skipped="0" disabled="0" failures="0">
-  <testcase classname="transaction testsuite" name="checking if deposit is recorded in transaction history" time="5.949" />
+ <testsuite name="transaction testsuite" timestamp="2021-10-25T16:46:56" hostname="localhost" time="5.879" errors="0" tests="1" skipped="0" disabled="0" failures="0">
+  <testcase classname="transaction testsuite" name="checking if deposit is recorded in transaction history" time="5.879" />
  </testsuite>
- <testsuite name="new user flow test suite" timestamp="2021-10-25T13:05:43" hostname="localhost" time="3.745" errors="0" tests="1" skipped="0" disabled="0" failures="0">
-  <testcase classname="new user flow test suite" name="login as a new user" time="3.743" />
+ <testsuite name="new user flow test suite" timestamp="2021-10-25T16:47:02" hostname="localhost" time="3.663" errors="0" tests="1" skipped="0" disabled="0" failures="0">
+  <testcase classname="new user flow test suite" name="login as a new user" time="3.663" />
  </testsuite>
- <testsuite name="deposit testsuit" timestamp="2021-10-25T13:05:47" hostname="localhost" time="2.98" errors="0" tests="1" skipped="0" disabled="0" failures="0">
-  <testcase classname="deposit testsuit" name="depositing happy path" time="2.979" />
+ <testsuite name="deposit testsuit" timestamp="2021-10-25T16:47:05" hostname="localhost" time="3.185" errors="0" tests="1" skipped="0" disabled="0" failures="0">
+  <testcase classname="deposit testsuit" name="depositing happy path" time="3.185" />
  </testsuite>
- <testsuite name="customer management test suite" timestamp="2021-10-25T13:05:50" hostname="localhost" time="17.25" errors="0" tests="3" skipped="0" disabled="0" failures="0">
-  <testcase classname="customer management test suite" name="adding a new user into the system" time="3.571" />
-  <testcase classname="customer management test suite" name="adding a new user into the system" time="3.492" />
-  <testcase classname="customer management test suite" name="deleting a user" time="10.142" />
+ <testsuite name="customer management test suite" timestamp="2021-10-25T16:47:08" hostname="localhost" time="12.406" errors="0" tests="3" skipped="0" disabled="0" failures="0">
+  <testcase classname="customer management test suite" name="adding a new user into the system" time="3.463" />
+  <testcase classname="customer management test suite" name="adding a new user into the system" time="3.541" />
+  <testcase classname="customer management test suite" name="deleting a user" time="5.342" />
  </testsuite>
- <testsuite name="Accounts testsuite" timestamp="2021-10-25T13:06:07" hostname="localhost" time="4.07" errors="0" tests="1" skipped="0" disabled="0" failures="0">
-  <testcase classname="Accounts testsuite" name="opening an account" time="4.07" />
+ <testsuite name="Accounts testsuite" timestamp="2021-10-25T16:47:21" hostname="localhost" time="3.924" errors="0" tests="1" skipped="0" disabled="0" failures="0">
+  <testcase classname="Accounts testsuite" name="opening an account" time="3.924" />
  </testsuite>
 </testsuites>
